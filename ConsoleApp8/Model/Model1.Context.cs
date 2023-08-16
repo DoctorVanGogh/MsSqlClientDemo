@@ -13,6 +13,7 @@ namespace ConsoleApp8.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
+    [DbConfigurationType(typeof(System.Data.Entity.SqlServer.MicrosoftSqlDbConfiguration))]
     public partial class AdventureWorksEntities : DbContext
     {
         public AdventureWorksEntities()
