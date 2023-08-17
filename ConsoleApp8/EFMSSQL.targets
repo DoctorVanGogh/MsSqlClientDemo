@@ -44,8 +44,8 @@
 			String input = File.ReadAllText(Filename);			
 			String output = Regex.Replace(input, pattern, replacement);			
 			
-            File.WriteAllText(Filename, output);
-          ]]>
+			File.WriteAllText(Filename, output);
+		  ]]>
 			</Code>
 		</Task>
 	</UsingTask>
